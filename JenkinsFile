@@ -30,7 +30,7 @@ pipeline {
         stage('Serve') {
             steps {
                 // Serve the application
-                bat 'serve -s build -l 5000'
+                bat 'npx serve -s build -l 5000'
             }
         }
 
