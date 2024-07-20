@@ -34,13 +34,6 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                // Deployment steps (e.g., upload build artifacts to a server or cloud storage)
-                // Example:
-                // sh 'npm run deploy'
-            }
-        }
     }
 
     post {
