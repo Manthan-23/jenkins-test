@@ -27,6 +27,13 @@ pipeline {
             }
         }
 
+        stage('Serve') {
+            steps {
+                // Serve the application
+                bat 'serve -s build -l 5000'
+            }
+        }
+
 
         
     }
