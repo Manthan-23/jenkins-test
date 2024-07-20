@@ -35,19 +35,4 @@ pipeline {
         }
 
     }
-
-    post {
-        always {
-            // Archive build artifacts
-            archiveArtifacts artifacts: 'build/**', allowEmptyArchive: true
-        }
-
-        success {
-            // Notify success (e.g., send email or Slack notification)
-        }
-
-        failure {
-            // Notify failure (e.g., send email or Slack notification)
-        }
-    }
 }
