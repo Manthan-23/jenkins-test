@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Manthan
+          Learn React with Manthan CE
         </a>
       </header>
     </div>
